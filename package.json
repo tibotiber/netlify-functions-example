@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "functions"
+    ],
+    "nohoist": [
+      "functions/**"
+    ]
+  },
+  "scripts": {
+    "dev": "wsrun dev & netlify dev",
+    "build": "wsrun --stages --fast-exit build",
+    "live": "yarn build && netlify dev --live"
+  },
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "netlify-cli": "^2.11.23",
+    "wsrun": "^3.6.5"
+  }
+}

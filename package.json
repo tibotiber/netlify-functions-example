@@ -3,9 +3,6 @@
   "workspaces": {
     "packages": [
       "functions"
-    ],
-    "nohoist": [
-      "functions/**"
     ]
   },
   "scripts": {

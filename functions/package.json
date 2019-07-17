@@ -12,6 +12,16 @@
       "git add"
     ]
   },
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  },
+  "dependencies": {
+    "firebase-admin": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "gltf-pipeline": "^2.1.3"
+  },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",

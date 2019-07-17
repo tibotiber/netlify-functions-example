@@ -12,11 +12,6 @@
       "git add"
     ]
   },
-  "workspaces": {
-    "nohoist": [
-      "**"
-    ]
-  },
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.4.4",

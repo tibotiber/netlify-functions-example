@@ -3,6 +3,6 @@ const uuid = require('uuid/v4')
 export async function handler (event, context) {
   return {
     statusCode: 200,
-    body: `Hello 3 - ${uuid()}`
+    body: `Hello 4 - ${uuid()}`
   }
 }
